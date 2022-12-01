@@ -430,7 +430,7 @@ public class PlaynhacActivity extends AppCompatActivity {
                     });
                 }
             }
-        },3003);
+        },3000);
         Handler handler1 = new Handler();
         handler1.postDelayed(new Runnable() {
             @Override
