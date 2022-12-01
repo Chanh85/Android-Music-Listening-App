@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:name="tdtu.finalterm520h0335_519h0189.Fragment.Fragment_banner"
+            android:id="@+id/fragmentbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_banner"
+            >
+        </androidx.fragment.app.FragmentContainerView>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="tdtu.finalterm520h0335_519h0189.Fragment.Fragment_playlist"
+            android:id="@+id/playlistbanner"
+            tools:layout="@layout/fragment_playlist">
+
+        </androidx.fragment.app.FragmentContainerView>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="tdtu.finalterm520h0335_519h0189.Fragment.Fragment_chude_theloai_trongngay"
+            android:id="@+id/chudetheloai"
+            tools:layout="@layout/fragment_chude_theloai_trongngay">
+
+        </androidx.fragment.app.FragmentContainerView>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="tdtu.finalterm520h0335_519h0189.Fragment.Fragment_album"
+            android:id="@+id/album"
+            tools:layout="@layout/fragment_album">
+
+        </androidx.fragment.app.FragmentContainerView>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="tdtu.finalterm520h0335_519h0189.Fragment.Fragment_baihatyeuthich"
+            android:id="@+id/baihatyeuthich"
+            tools:layout="@layout/fragment_baihetyeuthich">
+
+        </androidx.fragment.app.FragmentContainerView>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

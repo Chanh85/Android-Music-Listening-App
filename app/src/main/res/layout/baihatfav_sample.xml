@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="3dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageviewbaihatFav"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtenbaihatFav"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/imageviewbaihatFav"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="18sp"
+        android:text="Ten Bai Hat"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttencasibaihatFav"
+        android:layout_below="@id/txtenbaihatFav"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/imageviewbaihatFav"
+        android:maxLines="1"
+        android:text="Ca si"
+        android:textSize="18sp"
+
+        />
+    
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/iconlove"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/luotthich"
+        />
+
+</RelativeLayout>
