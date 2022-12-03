@@ -96,6 +96,7 @@ public class Fragment_chude_theloai_trongngay extends Fragment {
                         public void onClick(View view) {
                             Intent intent = new Intent(getActivity(), DStheloaitheochudeActivity.class);
                             intent.putExtra("chude", chuDeArrayList.get(finalI));
+                            startActivity(intent);
                         }
                     });
 
